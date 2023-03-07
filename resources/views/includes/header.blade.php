@@ -199,7 +199,7 @@
                 <ul class="main-nav nav navbar-nav">
                     <li><a class="nav-link @if(Request::route()->getName() == 'app_accueil') active @endif"
                             aria-current="page" href="{{route('app_accueil')}}">Accueil</a></li>
-                    <li><a class="nav-link @if(Request::route()->getName() == 'app_chaussure') active @endif"
+                    <li><a class="nav-link @if(Request::route()->getName() == 'app_chaussure') active @endif" co
                             aria-current="page" href="{{route('app_chaussure')}}">Chaussures</a></li>
                     <li><a href="{{route('app_produits')}}">Electroniques</a></li>
                     <li><a href="{{route('app_catalogue')}}">Catalogues</a></li>
